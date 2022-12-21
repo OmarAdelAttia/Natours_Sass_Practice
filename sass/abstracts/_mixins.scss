@@ -5,3 +5,13 @@
         clear: both;
     }
 }
+
+@mixin text-primary-color {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($primary-light-color, 0.8),
+        rgba($primary-dark-color, 0.8)
+      );
+      -webkit-background-clip: text;
+      color: transparent;
+}

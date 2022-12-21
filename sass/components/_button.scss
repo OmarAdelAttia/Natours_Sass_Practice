@@ -61,7 +61,7 @@
     &:link,
     &:visited {
       font-size: $default-font-size;
-      color: $primary-color;
+      @include text-primary-color;
       display: inline-block;
       text-decoration: none;
       border-bottom: 1px solid $primary-color;
