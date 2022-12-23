@@ -1,17 +1,28 @@
 @mixin clearfix {
-    &::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 @mixin text-primary-color {
-    background-image: linear-gradient(
-        to right bottom,
-        rgba($primary-light-color, 0.8),
-        rgba($primary-dark-color, 0.8)
-      );
-      -webkit-background-clip: text;
-      color: transparent;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($primary-light-color, 0.8),
+    rgba($primary-dark-color, 0.8)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@mixin front-heading-card-span($light-color, $dark-color) {
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($light-color, 0.8),
+    rgba($dark-color, 0.8)
+  );
 }

@@ -5,10 +5,17 @@ $black-color: #000000;
 $grey-dark-color: #777;
 
 $grey-light-color-1: #f7f7f7;
+$grey-light-color-2: #eee;
 
 $primary-color: #55c57a;
 $primary-dark-color: #28b485;
 $primary-light-color: #7ed56f;
+
+$secondery-dark-color: #ff7730;
+$secondery-light-color: #ffb900;
+
+$teriary-dark-color: #5643fa;
+$teriary-light-color: #2998ff;
 
 // GRID
 
@@ -19,3 +26,13 @@ $gutter-horizontal: 6rem;
 // FONT
 
 $default-font-size: 1.6rem;
+
+// Shadow box
+
+$black-shadow-box: 0 1.5rem 4rem rgba($black-color, 0.15);
+
+// Linear Gradient
+
+$linear-gridient-secondry-color: linear-gradient(to right bottom, $secondery-light-color, $secondery-dark-color);
+$linear-gridient-teriary-color: linear-gradient(to right bottom, $teriary-light-color, $teriary-dark-color);
+$linear-gridient-primary-color: linear-gradient(to right bottom, $primary-light-color, $primary-dark-color);
